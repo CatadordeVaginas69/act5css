@@ -1,0 +1,88 @@
+:root{
+    /* Creo un color llamado --color-1eso */
+    --color-1eso: #F9E79F;
+    /* Creo un color llamado --color-2eso */
+    --color-2eso: #A9DFBF;
+    --color-3eso: #f50707;
+    --color-dias: #12f507;
+    --color-hora: #0732f5;
+    --color-guardia: #e80fce;
+    --color-biblioteca:#0af1e0;
+    --color-patio:#e7f10a;
+    --color-1bach:#800d52;
+    --color-4eso:#fb6700;
+    --color-mantenimiento-equipos: #fba700;
+    --color-atencion-padres:#00ecfb;
+    --color-3eso2:#614695;
+    --color-r-dep:#660c19;
+}
+
+.nomenclatura-1eso{
+    /* Utilizo el color que he creado antes (--color-1eso) */
+    background-color: var(--color-1eso);
+    width: 50px;
+}
+
+.nomenclatura-2eso{
+    /* Utilizo el color que he creado antes (--color-2eso) */
+    background-color: var(--color-2eso);
+    width: 50px;
+}
+
+.primero-eso{
+    /* Utilizo el color que he creado antes (--color-1eso) */
+    background-color: var(--color-1eso) ;
+}
+
+.segundo-eso{
+    /* Utilizo el color que he creado antes (--color-2eso) */
+    background-color: var(--color-2eso);
+}
+
+.tercero-eso1{
+    background-color: var(--color-3eso);
+}
+
+.dias{
+    background-color: var(--color-dias);
+}
+.hora{
+    background-color: var(--color-hora);
+}
+.guardia{
+    background-color: var(--color-guardia);
+}
+.biblioteca{
+    background-color: var(--color-biblioteca);
+}
+.patio{
+    background-color:var(--color-patio);
+}
+.primero-bach{
+    background-color: var(--color-1bach);
+}
+.quarto-eso{
+    background-color: var(--color-4eso);
+}
+.mantenimiento-equipos{
+    background-color: var(--color-mantenimiento-equipos);
+}
+.atencion-padres{
+    background-color: var(--color-atencion-padres);
+}
+.tercero-eso2{
+    background-color: var(--color-3eso2);
+}
+.r-dep{
+    background-color: var(--color-r-dep);
+}
+
+.tabla-horario{
+    /* Me sirve para indicar que los bordes de las celdas no deben estar separados */
+    border-collapse: collapse;
+}
+
+.tabla-horario td, .tabla-horario th{
+    /* Especifico el borde de las celdas, para la tabla con clase "tabla-horario" */
+    border: 1px solid black;
+}
